@@ -11,5 +11,10 @@ public class SearchTextRequest {
 	public List<String> getSearchText() {
 		return searchText;
 	}
+
+	@Override
+	public String toString() {
+		return "SearchTextRequest [searchText=" + searchText + "]";
+	}
 	
 }
